@@ -8,6 +8,7 @@ function addTask(){
   else{
     let li = document.createElement("li");
     li.innerHTML = inputBox.value;
+
     ListofTask.appendChild(li);
     // cross icon
     let span = document.createElement("span");
