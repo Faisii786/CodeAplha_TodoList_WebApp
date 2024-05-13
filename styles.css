@@ -11,6 +11,19 @@ body {
   padding: 20px;
   border-radius: 10px;
 }
+.container h3 {
+  color: rgb(48, 48, 48);
+}
+
+.container .firstrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .firstrow img {
+  width: 60px;
+}
 
 input[type="text"] {
   width: 70%;
